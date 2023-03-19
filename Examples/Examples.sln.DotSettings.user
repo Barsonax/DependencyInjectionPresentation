@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4ac31203_002D8683_002D482a_002D9b7b_002D72466c2c5e7c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DoWork_ShouldRunForExpectedTime" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::7D9B51FA-7C49-44DC-B37D-22B7F2747A71::net6.0::Services.UnitTests.ServiceTests.DoWork_ShouldRunForExpectedTime&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::025E17D9-E6B2-4B47-8123-A5B4832A054F::net6.0::DependencyInjection.UnitTests.ServiceTests.DoWork_ShouldRunForExpectedTime&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::025E17D9-E6B2-4B47-8123-A5B4832A054F::net6.0::DependencyInjection.UnitTests.ServiceTests.DoWork_ShouldCallWaitExpectedTimes&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\git\DependencyInjectionPresentation\Examples\DependencyInjectionContainer.UnitTests" Presentation="&amp;lt;4. DependencyInjectionContainer&amp;gt;\&amp;lt;DependencyInjectionContainer.UnitTests&amp;gt;" /&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
