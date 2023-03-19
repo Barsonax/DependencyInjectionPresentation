@@ -1,0 +1,6 @@
+﻿namespace DependencyInjectionContainer;
+
+public interface IWaitService
+{
+    void Wait(int milliseconds);
+}
