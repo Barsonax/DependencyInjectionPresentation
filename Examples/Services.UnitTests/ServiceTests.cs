@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using FluentAssertions;
-using NoDependencyInjection;
 
 namespace Services.UnitTests;
 
