@@ -4,11 +4,11 @@ transition: "slide"
 highlightTheme: "vs2015"
 slideNumber: true
 logoImg: "https://github.com/Barsonax/nukepresentation/raw/master/images/nukeIcon.png"
-title: "You suck at Dependency Injection"
+title: "Stop creating tech debt! And start injecting your dependencies."
 enableTitleFooter: false
 ---
 
-## You suck at Dependency Injection
+## Stop creating tech debt! And start injecting your dependencies.
 
 <a>
     <img style="border: unset; box-shadow: unset" data-src="https://github.com/Barsonax/nukepresentation/raw/master/images/nukeIcon.png">
@@ -16,11 +16,32 @@ enableTitleFooter: false
 
 ---
 
-## In deze presentatie
-- 1
-- 2
-- 3
+## In this presentation
+
+- Why should you pay attention?
+- Just a simple concept
+- Frameworks
 
 ---
 
+## Why you should pay attention
+
+- You can keep developing software without it
+- Just like
+  - Clean code practices
+  - Testing
+  - CI/CD
+
+TODO separate slides
+
+- It'll cost you tech debt in the form of
+  - Refactorings
+  - Complexity
+  - Testability
+  - Speed
+
 ## Wat is Dependency Injection?
+
+- A simple concept
+- 25 dollar term for 25ct concept
+- 
