@@ -1,4 +1,4 @@
-﻿namespace NoDependencyInjection;
+﻿namespace Services;
 
 public class WaitService
 {

@@ -1,4 +1,4 @@
-﻿using NoDependencyInjection;
+﻿using Services;
 
 var service = new Service();
 
