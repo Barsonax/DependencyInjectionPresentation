@@ -20,18 +20,20 @@ enableTitleFooter: false
 
 <p class="fragment">Why pay attention?</p>
 <p class="fragment">What is it?</p>
+<p class="fragment">Looking at code</p>
 <p class="fragment">Frameworks</p>
-<p class="fragment">Implementation</p>
 
 ---
 
 Why pay attention if I can develop software without it?
 <p class="fragment">Software can be developed without:</p>
 
-<p class="fragment">*    Clean code practices</p>
-<p class="fragment">*    Testing</p>
-<p class="fragment">*    CI/CD</p>
-<p class="fragment">*    Code reviews</p>
+<ul>
+<li class="fragment">Clean code practices</li>
+<li class="fragment">Testing</li>
+<li class="fragment">CI/CD</li>
+<li class="fragment">Code reviews</li>
+</ul>
 
 --
 
@@ -57,16 +59,21 @@ Build for the long-term
 
 ## Wat is Dependency Injection?
 
-A simple idea
+<p class="fragment">A simple idea</p>
 
-Obfuscated by the focus on bells and whistles (eg. frameworks, scoping etc.)
+<p class="fragment">Obfuscated by the focus on bells and whistles (eg. frameworks, scoping etc.)</p>
 
-<p class="fragment">
-> "25 dollar term for 25ct concept"
-</p>
+<div class="fragment" cite="https://stackoverflow.com/a/140655/2675101">
+<q>25 dollar term for 5ct concept</q>
+<br/>
+-James Shore
+</div>
 
-<p class="fragment">
-```
+---
+
+### Regular code
+
+```csharp
 Constructor()
 {
     Processor = new Processor();
@@ -74,18 +81,25 @@ Constructor()
 }
 ```
 
-</p>
+---
 
-<p class="fragment">vs.</p>
-<p class="fragment">
+### Dependency injection
 
-```
+```csharp
 Constructor(processor, logger)
 {
     Processor = processor;
     Logger = logger;
 }
 ```
-</p>
 
+---
 
+<span class="fragment">Making the creation of objects </span> <span class="fragment">on which a class depends</span> <span class="fragment">someone else's problem.</span> <span class="fragment">Another way to say it is </span><span class="fragment">that DI makes classes more cohesive</span> <span class="fragment">(they have fewer responsibilities)</span>
+
+---
+
+## Resources
+
+- https://stackoverflow.com/questions/130794/what-is-dependency-injection
+- Recommended for the basic simple concept https://www.jamesshore.com/v2/blog/2006/dependency-injection-demystified
