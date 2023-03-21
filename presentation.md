@@ -52,7 +52,7 @@ Why pay attention if I can develop software without it?
 Build for the long-term
 
 <a>
-    <img style="border: unset; box-shadow: unset" data-src="https://github.com/Barsonax/DependencyInjectionPresentation/raw/master/images/Build_for_the_long_term.png">
+    <img style="border: unset; box-shadow: unset" data-src="https://raw.githubusercontent.com/Barsonax/DependencyInjectionPresentation/main/images/Build_for_the_long_term.png">
 </a>
 
 ---
