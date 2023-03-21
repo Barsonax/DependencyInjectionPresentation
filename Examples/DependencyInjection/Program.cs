@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using DependencyInjection;
+﻿using DependencyInjection;
 
 var waitService = new WaitService();
 var service = new Service(waitService);
