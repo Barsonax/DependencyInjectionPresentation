@@ -9,3 +9,4 @@ services.AddTransient(typeof(IValidator<>), typeof(Validator<>));
 var serviceProvider = services.BuildServiceProvider();
 
 serviceProvider.GetRequiredService<IValidator<Customer>>();
+serviceProvider.GetRequiredService<IValidator<Operator>>();
