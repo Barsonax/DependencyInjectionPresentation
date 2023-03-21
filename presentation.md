@@ -99,6 +99,10 @@ Constructor(processor, logger)
 
 ---
 
+## Let's look at some code!
+
+---
+
 ## Resources
 
 - https://stackoverflow.com/questions/130794/what-is-dependency-injection
